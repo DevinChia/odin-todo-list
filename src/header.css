@@ -1,0 +1,24 @@
+.header {
+    grid-area: 1 / 2 / 2 / 6;
+    box-shadow: 5px 5px 8px #c3c3c3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    font-weight: 700;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.create-project {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    padding: 12px 24px;
+}
+
+.create-project:hover {
+    transform: scale(0.95);
+    transition: 0.2s;
+}
